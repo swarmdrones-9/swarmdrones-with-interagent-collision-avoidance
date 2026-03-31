@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000327] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/hamad/ws_offboard_control/install/px4_msgs'})}
+[0.000387] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.007708] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.008910] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.008945] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hamad/ws_offboard_control/build/px4_ros_com', '--', '-j8', '-l8'], 'cwd': '/home/hamad/ws_offboard_control/build/px4_ros_com', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/hamad', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'hamad', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs/lib', 'HOME': '/home/hamad', 'CHROME_DESKTOP': 'cursor.desktop', 'OLDPWD': '/home/hamad/ws_offboard_control', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-083de33d-2.0.-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/cursor.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.local) ${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'MANAGERPID': '1378', 'SYSTEMD_EXEC_PID': '1706', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '22516', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'hamad', 'FORCE_COLOR': '0', 'JOURNAL_STREAM': '9:12953', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hamad', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'WINDOWPATH': '2', 'PATH': '/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/SWARM:@/tmp/.ICE-unix/1668,unix/SWARM:/tmp/.ICE-unix/1668', 'INVOCATION_ID': 'e1bc6f8bad5742548ab2c901e9d2a818', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'VSCODE_PROCESS_TITLE': 'extension-host  [1-1]', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(.local)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'SBX_CHROME_API_RQ': '1', 'CURSOR_TRACE_ID': '2572c32dcd154c8a9b81153bbb3b3e1f', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'AMENT_PREFIX_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/hamad/.local', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hamad/ws_offboard_control/build/px4_ros_com', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/hamad/.config/Cursor/CachedData/ba90f2f88e4911312761abab9492c42442117cf0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VSCODE_PID': '22516', 'CMAKE_PREFIX_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs'}), 'shell': False}
+[0.085246] (px4_ros_com) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_px4_ros_com\n'}
+[0.088990] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/multi_vehicle_offboard_control.dir/src/examples/offboard/multi_vehicle_offboard_control.cpp.o\n'}
+[0.089200] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target vehicle_gps_position_listener\n'}
+[0.089341] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target debug_vect_advertiser\n'}
+[0.089482] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target offboard_control_srv\n'}
+[0.090200] (px4_ros_com) StdoutLine: {'line': b'[ 64%] Built target offboard_control\n'}
+[0.090591] (px4_ros_com) StdoutLine: {'line': b'[ 78%] Built target frame_transforms\n'}
+[0.093007] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target sensor_combined_listener\n'}
+[0.099805] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.230127] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[0.234950] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[0.235242] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[0.235486] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[0.250633] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.251291] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.277347] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[0.300058] (-) TimerEvent: {}
+[0.400216] (-) TimerEvent: {}
+[0.500618] (-) TimerEvent: {}
+[0.600808] (-) TimerEvent: {}
+[0.700969] (-) TimerEvent: {}
+[0.801141] (-) TimerEvent: {}
+[0.901309] (-) TimerEvent: {}
+[1.001473] (-) TimerEvent: {}
+[1.101638] (-) TimerEvent: {}
+[1.201815] (-) TimerEvent: {}
+[1.301994] (-) TimerEvent: {}
+[1.402166] (-) TimerEvent: {}
+[1.502340] (-) TimerEvent: {}
+[1.602515] (-) TimerEvent: {}
+[1.702833] (-) TimerEvent: {}
+[1.803049] (-) TimerEvent: {}
+[1.903242] (-) TimerEvent: {}
+[2.003475] (-) TimerEvent: {}
+[2.103654] (-) TimerEvent: {}
+[2.203832] (-) TimerEvent: {}
+[2.304031] (-) TimerEvent: {}
+[2.404279] (-) TimerEvent: {}
+[2.504438] (-) TimerEvent: {}
+[2.604586] (-) TimerEvent: {}
+[2.704758] (-) TimerEvent: {}
+[2.804929] (-) TimerEvent: {}
+[2.905109] (-) TimerEvent: {}
+[3.005312] (-) TimerEvent: {}
+[3.105463] (-) TimerEvent: {}
+[3.205631] (-) TimerEvent: {}
+[3.305781] (-) TimerEvent: {}
+[3.405956] (-) TimerEvent: {}
+[3.506129] (-) TimerEvent: {}
+[3.606289] (-) TimerEvent: {}
+[3.706437] (-) TimerEvent: {}
+[3.806606] (-) TimerEvent: {}
+[3.906777] (-) TimerEvent: {}
+[4.006950] (-) TimerEvent: {}
+[4.107119] (-) TimerEvent: {}
+[4.207329] (-) TimerEvent: {}
+[4.307507] (-) TimerEvent: {}
+[4.407717] (-) TimerEvent: {}
+[4.507903] (-) TimerEvent: {}
+[4.608089] (-) TimerEvent: {}
+[4.708296] (-) TimerEvent: {}
+[4.808438] (-) TimerEvent: {}
+[4.908587] (-) TimerEvent: {}
+[5.008758] (-) TimerEvent: {}
+[5.108922] (-) TimerEvent: {}
+[5.209101] (-) TimerEvent: {}
+[5.309288] (-) TimerEvent: {}
+[5.409447] (-) TimerEvent: {}
+[5.509621] (-) TimerEvent: {}
+[5.609793] (-) TimerEvent: {}
+[5.709971] (-) TimerEvent: {}
+[5.810150] (-) TimerEvent: {}
+[5.910342] (-) TimerEvent: {}
+[6.010490] (-) TimerEvent: {}
+[6.110643] (-) TimerEvent: {}
+[6.210807] (-) TimerEvent: {}
+[6.310948] (-) TimerEvent: {}
+[6.411121] (-) TimerEvent: {}
+[6.511300] (-) TimerEvent: {}
+[6.611446] (-) TimerEvent: {}
+[6.711620] (-) TimerEvent: {}
+[6.811796] (-) TimerEvent: {}
+[6.911965] (-) TimerEvent: {}
+[7.012133] (-) TimerEvent: {}
+[7.112307] (-) TimerEvent: {}
+[7.212491] (-) TimerEvent: {}
+[7.312669] (-) TimerEvent: {}
+[7.412847] (-) TimerEvent: {}
+[7.512984] (-) TimerEvent: {}
+[7.613150] (-) TimerEvent: {}
+[7.713313] (-) TimerEvent: {}
+[7.813478] (-) TimerEvent: {}
+[7.913638] (-) TimerEvent: {}
+[8.013799] (-) TimerEvent: {}
+[8.113959] (-) TimerEvent: {}
+[8.214118] (-) TimerEvent: {}
+[8.314300] (-) TimerEvent: {}
+[8.414485] (-) TimerEvent: {}
+[8.514643] (-) TimerEvent: {}
+[8.614803] (-) TimerEvent: {}
+[8.714958] (-) TimerEvent: {}
+[8.815128] (-) TimerEvent: {}
+[8.915279] (-) TimerEvent: {}
+[9.015451] (-) TimerEvent: {}
+[9.115613] (-) TimerEvent: {}
+[9.215773] (-) TimerEvent: {}
+[9.315908] (-) TimerEvent: {}
+[9.416072] (-) TimerEvent: {}
+[9.516229] (-) TimerEvent: {}
+[9.616400] (-) TimerEvent: {}
+[9.716534] (-) TimerEvent: {}
+[9.816696] (-) TimerEvent: {}
+[9.916863] (-) TimerEvent: {}
+[10.017034] (-) TimerEvent: {}
+[10.117170] (-) TimerEvent: {}
+[10.217338] (-) TimerEvent: {}
+[10.317497] (-) TimerEvent: {}
+[10.417663] (-) TimerEvent: {}
+[10.517830] (-) TimerEvent: {}
+[10.617964] (-) TimerEvent: {}
+[10.718124] (-) TimerEvent: {}
+[10.818301] (-) TimerEvent: {}
+[10.918465] (-) TimerEvent: {}
+[11.018603] (-) TimerEvent: {}
+[11.118770] (-) TimerEvent: {}
+[11.218938] (-) TimerEvent: {}
+[11.319109] (-) TimerEvent: {}
+[11.419284] (-) TimerEvent: {}
+[11.519453] (-) TimerEvent: {}
+[11.619605] (-) TimerEvent: {}
+[11.720914] (-) TimerEvent: {}
+[11.821089] (-) TimerEvent: {}
+[11.921257] (-) TimerEvent: {}
+[12.021429] (-) TimerEvent: {}
+[12.121585] (-) TimerEvent: {}
+[12.221744] (-) TimerEvent: {}
+[12.321901] (-) TimerEvent: {}
+[12.422088] (-) TimerEvent: {}
+[12.522244] (-) TimerEvent: {}
+[12.622419] (-) TimerEvent: {}
+[12.722604] (-) TimerEvent: {}
+[12.822771] (-) TimerEvent: {}
+[12.922942] (-) TimerEvent: {}
+[13.023124] (-) TimerEvent: {}
+[13.123308] (-) TimerEvent: {}
+[13.223452] (-) TimerEvent: {}
+[13.323595] (-) TimerEvent: {}
+[13.393128] (px4_ros_com) StdoutLine: {'line': b'[100%] Linking CXX executable multi_vehicle_offboard_control\n'}
+[13.423722] (-) TimerEvent: {}
+[13.523915] (-) TimerEvent: {}
+[13.624121] (-) TimerEvent: {}
+[13.724339] (-) TimerEvent: {}
+[13.824527] (-) TimerEvent: {}
+[13.924700] (-) TimerEvent: {}
+[14.024878] (-) TimerEvent: {}
+[14.045571] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target multi_vehicle_offboard_control\n'}
+[14.054509] (px4_ros_com) CommandEnded: {'returncode': 0}
+[14.055085] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[14.062263] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hamad/ws_offboard_control/build/px4_ros_com'], 'cwd': '/home/hamad/ws_offboard_control/build/px4_ros_com', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/hamad', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'hamad', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs/lib', 'HOME': '/home/hamad', 'CHROME_DESKTOP': 'cursor.desktop', 'OLDPWD': '/home/hamad/ws_offboard_control', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-083de33d-2.0.-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/cursor.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.local) ${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'MANAGERPID': '1378', 'SYSTEMD_EXEC_PID': '1706', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '22516', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'hamad', 'FORCE_COLOR': '0', 'JOURNAL_STREAM': '9:12953', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hamad', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'WINDOWPATH': '2', 'PATH': '/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/SWARM:@/tmp/.ICE-unix/1668,unix/SWARM:/tmp/.ICE-unix/1668', 'INVOCATION_ID': 'e1bc6f8bad5742548ab2c901e9d2a818', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'VSCODE_PROCESS_TITLE': 'extension-host  [1-1]', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(.local)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'SBX_CHROME_API_RQ': '1', 'CURSOR_TRACE_ID': '2572c32dcd154c8a9b81153bbb3b3e1f', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'AMENT_PREFIX_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/hamad/.local', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hamad/ws_offboard_control/build/px4_ros_com', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/hamad/.config/Cursor/CachedData/ba90f2f88e4911312761abab9492c42442117cf0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VSCODE_PID': '22516', 'CMAKE_PREFIX_PATH': '/home/hamad/ws_offboard_control/install/px4_msgs'}), 'shell': False}
+[14.069086] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.070643] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[14.071549] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[14.071984] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[14.072898] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[14.073807] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv\n'}
+[14.074388] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control\n'}
+[14.085836] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control" to ""\n'}
+[14.085981] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[14.086138] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[14.086225] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/include/px4_ros_com\n'}
+[14.086307] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[14.086570] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[14.086786] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[14.086940] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[14.087011] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[14.087226] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test\n'}
+[14.087406] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[14.087563] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[14.087721] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[14.087893] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[14.087984] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh\n'}
+[14.088047] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv\n'}
+[14.088103] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info\n'}
+[14.088164] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.088220] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[14.088290] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.088389] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[14.088482] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com\n'}
+[14.088557] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py\n'}
+[14.088615] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py\n'}
+[14.115958] (px4_ros_com) StdoutLine: {'line': b"Listing '/home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...\n"}
+[14.120545] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control.py\n'}
+[14.121086] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[14.121167] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[14.121238] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[14.121307] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[14.121368] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[14.121427] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[14.121488] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[14.121547] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[14.121816] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[14.121873] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[14.121947] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[14.122008] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[14.122063] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[14.122117] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[14.122175] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.122233] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.122295] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.122349] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.122403] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[14.122457] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[14.122511] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[14.123583] (px4_ros_com) CommandEnded: {'returncode': 0}
+[14.124956] (-) TimerEvent: {}
+[14.143927] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[14.144333] (-) EventReactorShutdown: {}

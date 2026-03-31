@@ -1,0 +1,482 @@
+[0.044s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'px4_ros_com']
+[0.044s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['px4_ros_com'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79ec8aa686b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79ec8aa68320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79ec8aa68320>>, mixin_verb=('build',))
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.061s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swarm/ws_offboard_control'
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'ignore_ament_install'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['colcon_pkg']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'colcon_pkg'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['colcon_meta']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'colcon_meta'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['ros']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'ros'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['cmake', 'python']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'cmake'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'python'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extensions ['python_setup_py']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots) by extension 'python_setup_py'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/circle_2.0ms_20251127_215707) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_214819) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_215457) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221447) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221639) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221749) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_221916) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223108) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223301) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251127_223351) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231249) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231432) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_231706) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_233106) by extension 'python_setup_py'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'ros'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['cmake', 'python']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'cmake'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'python'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extensions ['python_setup_py']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234405) by extension 'python_setup_py'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'ros'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['cmake', 'python']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'cmake'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'python'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extensions ['python_setup_py']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_234835) by extension 'python_setup_py'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'ros'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['cmake', 'python']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'cmake'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'python'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extensions ['python_setup_py']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235252) by extension 'python_setup_py'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235433) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251129_235602) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001703) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(plots/square_2.0ms_20251130_001850) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_msgs' in 'src/px4_msgs'
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.087s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/swarm/ws_offboard_control/install
+[0.088s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/jazzy
+[0.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.104s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.104s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm/ws_offboard_control/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm/ws_offboard_control/install/px4_ros_com', 'merge_install': False, 'path': '/home/swarm/ws_offboard_control/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.104s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.105s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swarm/ws_offboard_control/src/px4_ros_com' with build type 'ament_cmake'
+[0.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swarm/ws_offboard_control/src/px4_ros_com'
+[0.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.106s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.110s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': Expected ['.', '/home/swarm/ws_offboard_control/build/px4_ros_com/colcon_command_prefix_build.sh', '&&', 'env'] to pass: The build time path "/home/hamad/ws_offboard_control/install/px4_msgs" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 159, in generate_command_environment
+    env = await get_null_separated_environment_variables(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 347, in get_null_separated_environment_variables
+    output = await check_output(cmd, cwd=cwd, shell=shell)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+           ^^^^^^
+AssertionError: Expected ['.', '/home/swarm/ws_offboard_control/build/px4_ros_com/colcon_command_prefix_build.sh', '&&', 'env', '-0'] to pass: The build time path "/home/hamad/ws_offboard_control/install/px4_msgs" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 308, in get_command_environment
+    return await extension.generate_command_environment(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 168, in generate_command_environment
+    env = await get_environment_variables(cmd, cwd=str(build_base))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 378, in get_environment_variables
+    output = await check_output(cmd, cwd=cwd, shell=shell)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+           ^^^^^^
+AssertionError: Expected ['.', '/home/swarm/ws_offboard_control/build/px4_ros_com/colcon_command_prefix_build.sh', '&&', 'env'] to pass: The build time path "/home/hamad/ws_offboard_control/install/px4_msgs" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+
+[0.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[0.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[0.110s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[0.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[0.112s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com' for CMake module files
+[0.112s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com' for CMake config files
+[0.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[0.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[0.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[0.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[0.113s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com/lib'
+[0.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[0.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[0.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[0.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[0.113s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com/bin'
+[0.113s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[0.113s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages'
+[0.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[0.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[0.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[0.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[0.114s] Level 1:colcon.colcon_core.environment:checking '/home/swarm/ws_offboard_control/install/px4_ros_com/bin'
+[0.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[0.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[0.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.sh'
+[0.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.bash'
+[0.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[0.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm/ws_offboard_control/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[0.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.126s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.128s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.147s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm/ws_offboard_control/install/local_setup.ps1'
+[0.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swarm/ws_offboard_control/install/_local_setup_util_ps1.py'
+[0.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm/ws_offboard_control/install/setup.ps1'
+[0.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm/ws_offboard_control/install/local_setup.sh'
+[0.149s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swarm/ws_offboard_control/install/_local_setup_util_sh.py'
+[0.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm/ws_offboard_control/install/setup.sh'
+[0.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm/ws_offboard_control/install/local_setup.bash'
+[0.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm/ws_offboard_control/install/setup.bash'
+[0.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm/ws_offboard_control/install/local_setup.zsh'
+[0.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm/ws_offboard_control/install/setup.zsh'

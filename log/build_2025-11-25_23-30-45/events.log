@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000796] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/hamad/ws_offboard_control/install/px4_msgs'})}
+[0.000856] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.007094] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.007820] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/hamad/ws_offboard_control/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/hamad/ws_offboard_control/install/px4_msgs'], 'cwd': '/home/hamad/ws_offboard_control/build/px4_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/hamad', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'hamad', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/hamad', 'CHROME_DESKTOP': 'cursor.desktop', 'OLDPWD': '/home/hamad/ws_offboard_control', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-083de33d-2.0.-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/cursor.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.local) ${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'MANAGERPID': '1366', 'SYSTEMD_EXEC_PID': '1683', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9744', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'hamad', 'FORCE_COLOR': '0', 'JOURNAL_STREAM': '9:12057', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hamad', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'WINDOWPATH': '2', 'PATH': '/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/home/hamad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/SWARM:@/tmp/.ICE-unix/1654,unix/SWARM:/tmp/.ICE-unix/1654', 'INVOCATION_ID': 'b1d4b60504904a00b6acfc3ddbd1a85f', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'VSCODE_PROCESS_TITLE': 'extension-host  [2-3]', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(.local)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'SBX_CHROME_API_RQ': '1', 'CURSOR_TRACE_ID': 'a7249a84a9d448249f434958b396e20d', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/hamad/.local', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hamad/ws_offboard_control/build/px4_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/hamad/.config/Cursor/CachedData/ba90f2f88e4911312761abab9492c42442117cf0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VSCODE_PID': '9744'}), 'shell': False}
+[0.099669] (-) TimerEvent: {}
+[0.132883] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199912] (-) TimerEvent: {}
+[0.252554] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.276296] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300045] (-) TimerEvent: {}
+[0.385053] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400189] (-) TimerEvent: {}
+[0.400610] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.401310] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.402302] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.415218] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502875] (-) TimerEvent: {}
+[0.603048] (-) TimerEvent: {}
+[0.624931] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.642594] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.642921] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.643768] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.660315] (px4_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:11 (find_package):\n'}
+[0.660529] (px4_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.660642] (px4_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.660748] (px4_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.660854] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.660970] (px4_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.661069] (px4_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.661183] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.661280] (px4_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.661377] (px4_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.661483] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.661588] (px4_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.661703] (px4_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.661853] (px4_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.661981] (px4_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.662099] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.662220] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.662346] (px4_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.665312] (px4_msgs) CommandEnded: {'returncode': 1}
+[0.693676] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 1}
+[0.703153] (-) TimerEvent: {}
+[0.704142] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[0.704200] (-) EventReactorShutdown: {}

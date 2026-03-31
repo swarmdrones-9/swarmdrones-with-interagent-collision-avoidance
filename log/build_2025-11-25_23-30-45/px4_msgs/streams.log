@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/hamad/ws_offboard_control/build/px4_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake /home/hamad/ws_offboard_control/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/hamad/ws_offboard_control/install/px4_msgs
+[0.132s] -- The C compiler identification is GNU 13.3.0
+[0.252s] -- The CXX compiler identification is GNU 13.3.0
+[0.276s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.415s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.642s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.660s] CMake Error at CMakeLists.txt:11 (find_package):
+[0.660s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.660s]   has asked CMake to find a package configuration file provided by
+[0.660s]   "ament_cmake", but CMake did not find one.
+[0.660s] 
+[0.660s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.660s]   any of the following names:
+[0.660s] 
+[0.660s]     ament_cmakeConfig.cmake
+[0.661s]     ament_cmake-config.cmake
+[0.661s] 
+[0.661s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.661s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.661s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.661s]   has been installed.
+[0.661s] 
+[0.661s] 
+[0.662s] -- Configuring incomplete, errors occurred!
+[0.665s] Invoked command in '/home/hamad/ws_offboard_control/build/px4_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake /home/hamad/ws_offboard_control/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/hamad/ws_offboard_control/install/px4_msgs

@@ -1,0 +1,6 @@
+[0.004s] Invoking command in '/home/swarm/ws_offboard_control/build/px4_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_msgs -- -j32 -l32
+[0.009s] CMake Error: The current CMakeCache.txt directory /home/swarm/ws_offboard_control/build/px4_msgs/CMakeCache.txt is different than the directory /home/hamad/ws_offboard_control/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.357s] CMake Error: The source directory "/home/hamad/ws_offboard_control/src/px4_msgs" does not exist.
+[0.357s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.358s] gmake: *** [Makefile:64265: cmake_check_build_system] Error 1
+[0.359s] Invoked command in '/home/swarm/ws_offboard_control/build/px4_msgs' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_msgs -- -j32 -l32

@@ -1,0 +1,75 @@
+[0.008s] Invoking command in '/home/swarm/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.local) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_ros_com -- -j32 -l32
+[0.043s] [ 14%] Built target offboard_control_srv
+[0.043s] [ 28%] Built target sensor_combined_listener
+[0.043s] [ 42%] Built target frame_transforms
+[0.044s] [ 71%] Built target vehicle_gps_position_listener
+[0.044s] [ 71%] Built target offboard_control
+[0.044s] [ 85%] Built target debug_vect_advertiser
+[0.045s] [ 85%] Built target ament_cmake_python_copy_px4_ros_com
+[0.045s] [ 92%] [32mBuilding CXX object CMakeFiles/multi_vehicle_offboard_control.dir/src/examples/offboard/multi_vehicle_offboard_control.cpp.o[0m
+[0.146s] running egg_info
+[0.154s] writing px4_ros_com.egg-info/PKG-INFO
+[0.154s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[0.154s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[0.172s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.173s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.191s] [ 92%] Built target ament_cmake_python_build_px4_ros_com_egg
+[7.629s] [100%] [32m[1mLinking CXX executable multi_vehicle_offboard_control[0m
+[7.931s] [100%] Built target multi_vehicle_offboard_control
+[7.937s] Invoked command in '/home/swarm/ws_offboard_control/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.local) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_ros_com -- -j32 -l32
+[7.943s] Invoking command in '/home/swarm/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.local) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/swarm/ws_offboard_control/build/px4_ros_com
+[7.949s] -- Install configuration: ""
+[7.949s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[7.949s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[7.949s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[7.949s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[7.950s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[7.950s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control
+[7.956s] -- Set non-toolchain portion of runtime path of "/home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control" to ""
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/include/px4_ros_com
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/libframe_transforms.so
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info
+[7.956s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt
+[7.956s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt
+[7.956s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO
+[7.956s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py
+[7.956s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py
+[7.976s] Listing '/home/swarm/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[7.980s] -- Installing: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.dsv
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[7.980s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.981s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[7.981s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[7.981s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[7.981s] -- Up-to-date: /home/swarm/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.xml
+[7.982s] Invoked command in '/home/swarm/ws_offboard_control/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swarm/ws_offboard_control/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.local) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/swarm/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/swarm/ws_offboard_control/build/px4_ros_com

@@ -1,0 +1,2 @@
+Invoking command in '/home/swarm/ws_offboard_control/build/px4_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_msgs -- -j32 -l32
+Invoked command in '/home/swarm/ws_offboard_control/build/px4_msgs' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/swarm/ws_offboard_control/build/px4_msgs -- -j32 -l32

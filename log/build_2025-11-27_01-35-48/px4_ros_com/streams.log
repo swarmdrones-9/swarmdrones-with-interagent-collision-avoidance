@@ -1,0 +1,75 @@
+[0.012s] Invoking command in '/home/hamad/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs CMAKE_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/hamad/ws_offboard_control/build/px4_ros_com -- -j8 -l8
+[0.100s] [  0%] Built target ament_cmake_python_copy_px4_ros_com
+[0.109s] [ 14%] Built target offboard_control
+[0.109s] [ 28%] Built target sensor_combined_listener
+[0.115s] [ 42%] Built target frame_transforms
+[0.118s] [ 57%] Built target vehicle_gps_position_listener
+[0.130s] [ 71%] Built target offboard_control_srv
+[0.132s] [ 85%] Built target debug_vect_advertiser
+[0.137s] [ 92%] Building CXX object CMakeFiles/multi_vehicle_offboard_control.dir/src/examples/offboard/multi_vehicle_offboard_control.cpp.o
+[0.364s] running egg_info
+[0.373s] writing px4_ros_com.egg-info/PKG-INFO
+[0.374s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[0.374s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[0.401s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.402s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.451s] [ 92%] Built target ament_cmake_python_build_px4_ros_com_egg
+[20.420s] [100%] Linking CXX executable multi_vehicle_offboard_control
+[21.483s] [100%] Built target multi_vehicle_offboard_control
+[21.497s] Invoked command in '/home/hamad/ws_offboard_control/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs CMAKE_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/hamad/ws_offboard_control/build/px4_ros_com -- -j8 -l8
+[21.509s] Invoking command in '/home/hamad/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs CMAKE_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/hamad/ws_offboard_control/build/px4_ros_com
+[21.519s] -- Install configuration: ""
+[21.519s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[21.519s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[21.519s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[21.521s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[21.522s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[21.522s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control
+[21.535s] -- Set non-toolchain portion of runtime path of "/home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/multi_vehicle_offboard_control" to ""
+[21.535s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[21.536s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[21.536s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/include/px4_ros_com
+[21.536s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[21.537s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/libframe_transforms.so
+[21.537s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch
+[21.537s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[21.537s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[21.537s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[21.538s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info
+[21.538s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt
+[21.539s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO
+[21.539s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt
+[21.539s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt
+[21.539s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com
+[21.539s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py
+[21.539s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py
+[21.588s] Listing '/home/hamad/ws_offboard_control/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[21.597s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[21.598s] -- Installing: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.dsv
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[21.598s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[21.599s] -- Up-to-date: /home/hamad/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.xml
+[21.601s] Invoked command in '/home/hamad/ws_offboard_control/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs CMAKE_PREFIX_PATH=/home/hamad/ws_offboard_control/install/px4_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib PS1=(.local) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/hamad/ws_offboard_control/install/px4_msgs/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/hamad/ws_offboard_control/build/px4_ros_com
