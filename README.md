@@ -44,7 +44,7 @@ Prerequisites
 # Installation & Launch
 
 # Clone the repository
-git clone https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git
+<pre>git clone https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git
 cd ws_offboard_control
 
 # Build the workspace
@@ -53,4 +53,17 @@ colcon build
 # Launch the simulation (Drone 1 / Gazebo Server)
 cd ~/PX4-Autopilot
 PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4 -i 1
-    
+  (Note: To launch additional drones, open new terminals and use the PX4_GZ_STANDALONE=1 flag with unique IDs as detailed in the setup guide.)
+</pre>
+
+# Project Authors
+
+Hamad Alsaleem
+
+Sultan Alharbi 
+
+Mohammed Altuwayjiri 
+
+Omar Alharbi 
+
+Supervisor: Dr. Mohammed Alfayizi, Qassim University
