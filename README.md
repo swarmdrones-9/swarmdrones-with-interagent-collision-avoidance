@@ -39,13 +39,14 @@ The control architecture unifies global reference frames through a local Cartesi
 Ensure you have the following installed and configured on your system:
 1. ROS 2 Jazzy
 2. PX4 Autopilot (v1.16)
-3. QGroundControl (Optional: For monitoring only)
+3. QGroundControl (Must be installed and running during simulation)
 4. Micro XRCE-DDS bridge
+5. **Terminator** (Terminal emulator required for the launch script. Install via: `sudo apt install terminator`)
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git
+git clone [https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git](https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git)
 cd ws_offboard_control
 ```
 
@@ -53,56 +54,41 @@ cd ws_offboard_control
 
 ## 6. How to Start the Simulation
 
-To launch the full 5-drone swarm, you will need to open multiple terminal tabs. We have provided a shell script to automate the drone launching process.
+We have provided a shell script that utilizes `terminator` to automate the process of launching the Gazebo simulator, the Micro XRCE-DDS Agent, and multiple PX4 drone instances simultaneously.
 
 ### Step 1: Build the Workspace
 Always build the workspace if you have made changes to the code.
 ```bash
-# Terminal 1
 cd ~/ws_offboard_control
 source /opt/ros/jazzy/setup.bash
 colcon build --packages-select px4_ros_com
 source install/local_setup.bash
 ```
 
-### Step 2: Start the MicroXRCE Agent
-This bridge allows ROS 2 to communicate with PX4.
-```bash
-# Terminal 2
-MicroXRCEAgent udp4 -p 8888
-```
+### Step 2: Open QGroundControl
+Before launching the swarm, open QGroundControl. The drones require an active connection to initialize and transition into flight modes.
 
-### Step 3: Launch the Drones & Simulator
-Instead of launching 5 instances manually, use the provided launch script.
+### Step 3: Launch the Swarm and Simulator
+Run the automated script. This will open a new `terminator` window running the Gazebo environment, the Micro XRCE-DDS Agent, and the 5 drone instances.
 ```bash
-# Terminal 3
 cd ~/ws_offboard_control
 ./launch_drones.sh
 ```
 
-### Step 4: Launch the Swarm Bridge & RViz
+### Step 4: Start the Offboard Control Node
+Open a new standard terminal to initialize the main swarm control node that handles the APF logic.
 ```bash
-# Terminal 4 (LiDAR/Swarm Bridge)
 cd ~/ws_offboard_control
 source install/local_setup.bash
-ros2 run px4_ros_com swarm_bridge.py --num-drones 5 --world default
-
-# Terminal 5 (RViz Visualization)
-cd ~/ws_offboard_control
-source install/local_setup.bash
-ros2 launch px4_ros_com swarm_viz.launch.py
+source /opt/ros/jazzy/setup.bash
+ros2 run px4_ros_com multi_vehicle_offboard_control -- --num_drones 5
 ```
 
-### Step 5: Start Offboard Control & Path
-Initialize the control node, then send the trajectory path (e.g., a square path).
+### Step 5: Send the Trajectory Command
+Open one final terminal to command the swarm to fly a specific path (e.g., a square path).
 ```bash
-# Terminal 6 (Offboard Control Node)
 cd ~/ws_offboard_control
-source install/local_setup.bash
-ros2 run px4_ros_com multi_vehicle_offboard_control -- --num_drones 5
-
-# Terminal 7 (Send Path Command)
-cd ~/ws_offboard_control
+source /opt/ros/jazzy/setup.bash
 source install/local_setup.bash
 python3 src/px4_ros_com/src/examples/offboard_py/path_controller.py --path square 
 ```
@@ -143,7 +129,7 @@ To establish a baseline or test strict geometric tracking without safety overrid
 **Kill All Simulation Processes:**
 If the simulation crashes or hangs, use this command to cleanly wipe all background processes before restarting:
 ```bash
-tmux kill-session -t drones; killall -9 px4 gzserver gzclient ruby gz MicroXRCEAgent; pkill -9 -f "PX4_SYS_AUTOSTART" 
+tmux kill-session -t drones; killall -9 px4 gzserver gzclient ruby gz MicroXRCEAgent terminator; pkill -9 -f "PX4_SYS_AUTOSTART" 
 ```
 
 **Clean Build:**
