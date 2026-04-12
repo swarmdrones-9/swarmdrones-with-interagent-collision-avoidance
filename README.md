@@ -1,4 +1,4 @@
-# Decentralized Predictive-Repulsive Formation Control for UAV Swarms
+# Design and Operation of a UAVs Swarm for Optimal Performance
 
 [![ROS 2 - Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/index.html)
 [![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)](https://px4.io/)
@@ -9,20 +9,14 @@
 
 This repository contains the implementation of a decentralized coordination and resilient control architecture for Unmanned Aerial Vehicle (UAV) swarms. Developed as a Senior Design Project at Qassim University, this system addresses the fragility of conventional swarm formations in complex, dynamic environments.
 
-Standard swarm formations often struggle with collision avoidance in cluttered spaces, leading to "rigid" behaviors that result in mid-air impacts or swarm separation. Our solution integrates an existing Leader-Follower strategy with a predictive, urgency-based Artificial Potential Fields (APF) collision avoidance algorithm. 
-
-## Simulation Results
-
-> **Note to authors:** *Replace the placeholder image below with Figure 5 (3D View of Proposed Method) or an animated GIF of your SITL simulation in action!*
-
-![Simulation Demo Placeholder](link-to-your-image-or-gif-here.png)
+Standard swarm formations often struggle with collision avoidance in cluttered spaces, leading to "rigid" behaviors that result in mid-air impacts or swarm separation. Our solution integrates a Leader-Follower strategy with a predictive Artificial Potential Fields (APF) collision avoidance algorithm.
 
 ## Key Features
 
-* **Predictive Collision Avoidance:** Utilizes a modified APF algorithm that calculates real-time spatial and temporal "urgency" metrics to preemptively adjust flight paths and prevent inter-agent collisions.
-* **Elastic Formation Recovery:** Unlike rigid geometric control systems, this architecture prioritizes physical survivability, allowing agents to temporarily deviate for safety and then autonomously return to their assigned formation slots.
-* **Decentralized Coordination:** Each follower drone estimates the leader's motion and maintains its own formation offset using exclusively local state estimates, eliminating single points of failure.
-* **High-Fidelity SITL Simulation:** Built and rigorously validated using Gazebo Harmonic with synchronized rigid-body physics for Holybro X500 v2 airframes.
+* **Predictive Collision Avoidance:** Uses an Artificial Potential Fields (APF) algorithm that calculates real-time "urgency" metrics to adjust flight paths and prevent inter-agent collisions.
+* **Elastic Formation Recovery:** Unlike rigid control systems, this architecture allows agents to temporarily deviate for safety and then autonomously return to their assigned formation slots.
+* **Decentralized Coordination:** Each follower drone estimates the leader's motion and maintains its own formation offset using local state estimates.
+* **High-Fidelity Simulation:** Built and validated using Gazebo Harmonic with synchronized physics for Holybro X500 v2 airframes.
 
 ## Technical Stack
 
@@ -34,23 +28,48 @@ Standard swarm formations often struggle with collision avoidance in cluttered s
 
 ## System Architecture
 
-The control architecture unifies global reference frames through a local Cartesian NED frame based on a Flat-Earth Approximation. Follower velocity is dynamically scaled using a constant feedforward multiplier to reduce formation lag during dynamic maneuvers, while prioritizing safety-critical repulsion forces.
+The control architecture unifies global reference frames through a local Cartesian NED frame based on a Flat-Earth Approximation. Follower velocity is dynamically scaled to reduce formation lag while prioritizing safety-critical repulsion forces.
 
 ---
 
-## Installation & Setup
+## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed and configured on your Ubuntu 24.04 system:
+Ensure you have the following installed on your system:
+1. Install ROS 2 Jazzy.
+2. Set up PX4 Autopilot v1.16.
+3. Install QGroundControl.
+4. Configure the Micro XRCE-DDS bridge.
 
-1. ROS 2 Jazzy
-2. PX4 Autopilot (Specifically v1.16)
-3. QGroundControl (Used strictly for flight state monitoring, not centralized command)
-4. Micro XRCE-DDS bridge
+## Installation & Launch
 
-### Cloning the Repository
+### 1. Clone the repository
 
-```bash
-git clone [https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git](https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git)
+git clone https://github.com/swarmdrones-9/swarmdrones-with-interagent-collision-avoidance.git
 cd ws_offboard_control
+
+### 2. Build the workspace
+
+colcon build
+source install/setup.bash
+
+### 3. Launch the simulation
+
+To start the simulation with the first drone (which also initiates the Gazebo Server), open a terminal and run:
+
+cd ~/PX4-Autopilot
+PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4 -i 1
+
+> **Note:** To launch additional drones, open new terminals and use the `PX4_GZ_STANDALONE=1` flag with unique IDs (e.g., `-i 2`, `-i 3`, etc.).
+
+---
+
+## Project Authors
+
+* **Hamad Alsaleem**
+* **Sultan Alharbi**
+* **Mohammed Altuwayjiri**
+* **Omar Alharbi**
+
+**Supervisor:** Dr. Mohammed Alfayiz, Qassim University
