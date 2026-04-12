@@ -20,7 +20,20 @@ Standard swarm formations often struggle with collision avoidance in cluttered s
 
 ## 3. System Architecture
 
-The control architecture unifies global reference frames through a local Cartesian NED frame based on a Flat-Earth Approximation. Follower velocity is dynamically scaled (using a constant feedforward multiplier) to reduce formation lag while prioritizing safety-critical repulsion forces during high-stress convergence events, such as 90-degree cornering.
+[cite_start]The proposed system utilizes a decentralized, layered architecture that strictly separates high-level swarm intelligence logic from low-level flight stabilization[cite: 436]. [cite_start]Decision-making is executed entirely onboard each UAV, relying exclusively on local state estimations and the observation of immediate neighbors, thereby preventing critical communication bottlenecks[cite: 437].
+
+[cite_start]The architecture is structurally divided into two conceptual layers[cite: 438]:
+
+* [cite_start]**High-Level Layer:** Responsible for computing formation kinematics, trajectory prediction, and the execution of the proposed urgency-based collision avoidance logic[cite: 439].
+* [cite_start]**Low-Level Layer:** Dedicated to vehicle attitude stabilization, motor mixing, and the direct execution of velocity commands[cite: 440].
+
+### Control Pipeline
+[cite_start]The sequential control pipeline independently executed by each agent comprises the following stages[cite: 442, 443]:
+1. [cite_start]Leader trajectory prediction to compensate for latency[cite: 445].
+2. [cite_start]Initial formation position assignment based on geometric offsets[cite: 448].
+3. [cite_start]Continuous collision risk estimation quantified by the urgency metric[cite: 449].
+4. [cite_start]Generation and application of the repulsive positional correction[cite: 450].
+5. [cite_start]Dynamic velocity scaling to optimize spatial convergence[cite: 452].
 
 ## 4. Tech Stack
 
