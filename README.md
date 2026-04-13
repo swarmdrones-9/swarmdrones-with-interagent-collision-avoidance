@@ -1,7 +1,7 @@
 # Design and Operation of a UAVs Swarm for Optimal Performance
 
 [![ROS 2 - Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/index.html)
-[![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)](https://px4.io/)
+[![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)]([https://px4.io/](https://docs.px4.io/main/en/))
 [![Gazebo - Harmonic](https://img.shields.io/badge/Gazebo-Harmonic-FF6600?logo=gazebo&logoColor=white)](https://gazebosim.org/)
 [![License - MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -163,8 +163,6 @@ colcon build
 * **Mohammed Altuwayjiri**
 * **Omar Alharbi**
 
-**Supervisor:** Dr. Mohammed Alfayiz, Department of Engineering, Qassim University
+**Supervisor:** Dr. Mohammed Alfayizi, Department of Engineering, Qassim University
 
-### Citation
-If you use this code or simulation architecture in your research, please cite our paper:
-> Alharbi, S.; Altuwayjiri, M.; Alharbi, O.; Alsaleem, H.; Alfayiz, M. *Decentralized Predictive-Repulsive Formation Control for UAV Swarms in Constrained Environments.* Appl. Sci. 2026.
+
