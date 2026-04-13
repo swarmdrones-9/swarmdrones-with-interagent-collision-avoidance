@@ -11,6 +11,7 @@ This repository contains the implementation of a decentralized coordination and 
 
 Standard swarm formations often struggle with collision avoidance in cluttered spaces, leading to "rigid" behaviors that result in mid-air impacts or swarm separation. Our solution integrates a Leader-Follower strategy with a predictive Artificial Potential Fields (APF) collision avoidance algorithm to ensure physical survivability without sacrificing mission objectives.
 
+
 ## 2. Key Features
 
 * **Predictive Collision Avoidance:** Uses a modified APF algorithm that calculates real-time spatial and temporal "urgency" metrics to adjust flight paths and prevent inter-agent collisions.
@@ -110,7 +111,7 @@ python3 src/px4_ros_com/src/examples/offboard_py/path_controller.py --path squar
 
 ## 7. Expected Results & Visualizations
 
-> **Note:** *[Insert GIF/Video of the simulation running in Gazebo here]*
+https://github.com/user-attachments/assets/3127e63c-16a3-48c4-927d-1a2870dfe4e7
 
 After running a simulation, flight data is logged into CSV files. You can generate 2D and 3D trajectory graphs to analyze the formation error and separation distances.
 
