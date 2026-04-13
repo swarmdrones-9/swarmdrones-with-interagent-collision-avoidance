@@ -123,7 +123,7 @@ source install/local_setup.bash
 python3 src/px4_ros_com/src/examples/offboard_py/visualize_path.py plots/square_2.0ms_20251202_120103.csv/square_2.0ms_20251202_120103.csv
 ```
 
-> **Note:** *[Insert Image of the 3D plotted graph here]*
+<img width="407" height="356" alt="Screenshot_4ww" src="https://github.com/user-attachments/assets/c2958a2d-c892-4511-bc33-c012f209fc47" />
 
 ---
 
