@@ -112,6 +112,8 @@ python3 src/px4_ros_com/src/examples/offboard_py/path_controller.py --path squar
 
 https://github.com/user-attachments/assets/248425f8-e0a5-4c41-86d0-132112c3966c
 
+> **Simulation Demo:** 5 UAVs executing a square trajectory with collision avoidance active.
+
 After running a simulation, flight data is logged into CSV files. You can generate 2D and 3D trajectory graphs to analyze the formation error and separation distances.
 
 To visualize the path from a recent flight:
@@ -123,8 +125,13 @@ source install/local_setup.bash
 python3 src/px4_ros_com/src/examples/offboard_py/visualize_path.py plots/square_2.0ms_20251202_120103.csv/square_2.0ms_20251202_120103.csv
 ```
 
-<img width="407" height="356" alt="Screenshot_4ww" src="https://github.com/user-attachments/assets/c2958a2d-c892-4511-bc33-c012f209fc47" />
-<img width="314" height="262" alt="Screenshot_41" src="https://github.com/user-attachments/assets/68047585-658a-4573-9ff4-2b8dd0ed8310" />
+<img width="407" height="356" alt="2D Trajectory Analysis" src="https://github.com/user-attachments/assets/c2958a2d-c892-4511-bc33-c012f209fc47" />
+
+> **2D Trajectory:** Top-down view showing drones expanding their formation at corners to prevent collisions.
+
+<img width="314" height="262" alt="3D Spatial Visualization" src="https://github.com/user-attachments/assets/68047585-658a-4573-9ff4-2b8dd0ed8310" />
+
+> **3D Trajectory:** Drones shifting altitude during tight turns to maintain safe spacing.
 
 ---
 
