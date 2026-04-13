@@ -1,7 +1,7 @@
 # Design and Operation of a UAVs Swarm for Optimal Performance
 
 [![ROS 2 - Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/index.html)
-[![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)]([https://px4.io/](https://docs.px4.io/main/en/))
+[![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)](https://docs.px4.io/main/en/)
 [![Gazebo - Harmonic](https://img.shields.io/badge/Gazebo-Harmonic-FF6600?logo=gazebo&logoColor=white)](https://gazebosim.org/)
 [![License - MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -10,7 +10,6 @@
 This repository contains the implementation of a decentralized coordination and resilient control architecture for Unmanned Aerial Vehicle (UAV) swarms. Developed as a Senior Design Project at Qassim University, this system addresses the fragility of conventional swarm formations in complex, dynamic environments.
 
 Standard swarm formations often struggle with collision avoidance in cluttered spaces, leading to "rigid" behaviors that result in mid-air impacts or swarm separation. Our solution integrates a Leader-Follower strategy with a predictive Artificial Potential Fields (APF) collision avoidance algorithm to ensure physical survivability without sacrificing mission objectives.
-
 
 ## 2. Key Features
 
@@ -111,10 +110,7 @@ python3 src/px4_ros_com/src/examples/offboard_py/path_controller.py --path squar
 
 ## 7. Expected Results & Visualizations
 
-
 https://github.com/user-attachments/assets/248425f8-e0a5-4c41-86d0-132112c3966c
-
-
 
 After running a simulation, flight data is logged into CSV files. You can generate 2D and 3D trajectory graphs to analyze the formation error and separation distances.
 
@@ -134,11 +130,12 @@ python3 src/px4_ros_com/src/examples/offboard_py/visualize_path.py plots/square_
 
 ## 8. Turning Off Collision Avoidance for Testing
 
-To establish a baseline or test strict geometric tracking without safety overrides, you can disable the APF collision avoidance module. 
+To establish a baseline or test strict geometric tracking without safety overrides, you can manually disable the APF collision avoidance module in the source code.
 
-> **Developer Note:** *[Explain briefly here how the user disables it in your code. E.g., "Change the ENABLE_APF boolean to False in multi_vehicle_offboard_control.py before building."]*
-
-**Warning:** Disabling collision avoidance during dynamic maneuvers (like the square path) will result in catastrophic 0-meter mid-air collisions as the agents attempt to perfectly track overlapping geometric slots.
+1. Navigate to the main control script:
+   `src/px4_ros_com/src/examples/offboard/multi_vehicle_offboard_control.cpp`
+2. Open the file and change the collision avoidance flag from `true` to `false`.
+3. Save the file and rebuild the workspace (`colcon build`) for the changes to take effect.
 
 ---
 
@@ -169,5 +166,3 @@ colcon build
 * **Omar Alharbi**
 
 **Supervisor:** Dr. Mohammed Alfayizi, Department of Engineering, Qassim University
-
-
