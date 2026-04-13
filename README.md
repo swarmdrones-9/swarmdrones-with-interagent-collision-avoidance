@@ -20,20 +20,20 @@ Standard swarm formations often struggle with collision avoidance in cluttered s
 
 ## 3. System Architecture
 
-[cite_start]The proposed system utilizes a decentralized, layered architecture that strictly separates high-level swarm intelligence logic from low-level flight stabilization[cite: 436]. [cite_start]Decision-making is executed entirely onboard each UAV, relying exclusively on local state estimations and the observation of immediate neighbors, thereby preventing critical communication bottlenecks[cite: 437].
+The swarm utilizes a decentralized architecture that separates the complex swarm intelligence from the basic flight mechanics. All decision-making happens locally on each drone, preventing the communication bottlenecks you see in centralized ground-station setups.
 
-[cite_start]The architecture is structurally divided into two conceptual layers[cite: 438]:
+The system is split into two primary layers:
 
-* [cite_start]**High-Level Layer:** Responsible for computing formation kinematics, trajectory prediction, and the execution of the proposed urgency-based collision avoidance logic[cite: 439].
-* [cite_start]**Low-Level Layer:** Dedicated to vehicle attitude stabilization, motor mixing, and the direct execution of velocity commands[cite: 440].
+* **High-Level Layer:** This handles the heavy lifting—trajectory prediction, formation math, and the APF collision avoidance logic.
+* **Low-Level Layer:** This runs directly on the flight controller to manage vehicle attitude stabilization, motor mixing, and executing the requested velocity commands.
 
 ### Control Pipeline
-[cite_start]The sequential control pipeline independently executed by each agent comprises the following stages[cite: 442, 443]:
-1. [cite_start]Leader trajectory prediction to compensate for latency[cite: 445].
-2. [cite_start]Initial formation position assignment based on geometric offsets[cite: 448].
-3. [cite_start]Continuous collision risk estimation quantified by the urgency metric[cite: 449].
-4. [cite_start]Generation and application of the repulsive positional correction[cite: 450].
-5. [cite_start]Dynamic velocity scaling to optimize spatial convergence[cite: 452].
+Each individual drone runs a continuous 5-step loop:
+1. Predict the leader's future position to compensate for communication latency.
+2. Calculate its designated geometric formation offset.
+3. Assess the real-time collision risk using the urgency metric.
+4. Apply repulsive positional corrections if a threat is detected.
+5. Dynamically scale velocity to efficiently close any resulting spatial gaps.
 
 ## 4. Tech Stack
 
