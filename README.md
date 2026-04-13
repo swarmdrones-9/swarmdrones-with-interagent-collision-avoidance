@@ -127,12 +127,11 @@ python3 src/px4_ros_com/src/examples/offboard_py/visualize_path.py plots/square_
 
 <img width="407" height="356" alt="2D Trajectory Analysis" src="https://github.com/user-attachments/assets/c2958a2d-c892-4511-bc33-c012f209fc47" />
 
-> **2D Trajectory:** Top-down view showing drones expanding their formation at corners to prevent collisions.
+> **3D Trajectory:** Drones shifting altitude during tight turns to maintain safe spacing.
 
 <img width="314" height="262" alt="3D Spatial Visualization" src="https://github.com/user-attachments/assets/68047585-658a-4573-9ff4-2b8dd0ed8310" />
 
-> **3D Trajectory:** Drones shifting altitude during tight turns to maintain safe spacing.
-
+> **2D Trajectory:** Top-down view showing drones expanding their formation at corners to prevent collisions.
 ---
 
 ## 8. Turning Off Collision Avoidance for Testing
