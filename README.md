@@ -171,4 +171,4 @@ colcon build
 * **Mohammed Altuwayjiri**
 * **Omar Alharbi**
 
-**Supervisor:** Dr. Mohammed Alfayizi, Department of Engineering, Qassim University
+**Supervisor:** Dr. Mohammed Alfayizi, Department of Electrical Engineering, Qassim University
