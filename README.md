@@ -1,4 +1,4 @@
-# Design and Operation of a UAVs Swarm for Optimal Performance
+# Design and Operation of a UAVs Swarm for Optimal Performance.
 
 [![ROS 2 - Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/index.html)
 [![PX4 - v1.16](https://img.shields.io/badge/PX4-v1.16-012C6E?logo=px4&logoColor=white)](https://docs.px4.io/main/en/)
